@@ -1,28 +1,20 @@
-.explore {
-    background-color: #efefef;
+.dashboard-screen {
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
   
-  .explore .div {
-    background-color: #efefef;
+  .dashboard-screen .div {
+    background-color: #ffffff;
     overflow: hidden;
     width: 1440px;
     height: 1024px;
     position: relative;
   }
   
-  .explore .overlap {
-    position: absolute;
-    width: 1038px;
-    height: 1035px;
-    top: 0;
-    left: 3px;
-  }
-  
-  .explore .sidebar {
+  .dashboard-screen .sidebar {
     position: absolute;
     width: 347px;
     height: 1035px;
@@ -33,7 +25,7 @@
     box-shadow: 0px 4px 4px #00000040;
   }
   
-  .explore .finance {
+  .dashboard-screen .overlap {
     position: absolute;
     width: 275px;
     height: 530px;
@@ -41,43 +33,103 @@
     left: 5px;
   }
   
-  .explore .overlap-group {
+  .dashboard-screen .text-wrapper {
     position: absolute;
-    width: 201px;
-    height: 357px;
-    top: 75px;
-    left: 70px;
-  }
-  
-  .explore .dashboard {
-    width: 168px;
-    height: 357px;
-    left: 0;
-    position: absolute;
-    top: 0;
-  }
-  
-  .explore .text-wrapper {
-    left: 48px;
+    top: 218px;
+    left: 118px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #484848;
     font-size: 22px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 0;
   }
   
-  .explore .settings {
+  .dashboard-screen .finance {
+    position: absolute;
+    width: 275px;
+    height: 530px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .dashboard {
+    position: absolute;
+    width: 225px;
+    height: 51px;
+    top: 64px;
+    left: 44px;
+  }
+  
+  .dashboard-screen .overlap-group {
+    position: relative;
+    width: 223px;
+    height: 51px;
+    background-color: #1371fe;
+    border-radius: 30px;
+  }
+  
+  .dashboard-screen .chart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 26px;
+  }
+  
+  .dashboard-screen .text-wrapper-2 {
+    top: 11px;
+    left: 74px;
+    color: #ffffff;
+    font-size: 22px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 222px;
+    left: 70px;
+  }
+  
+  .dashboard-screen .subscription {
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    top: 147px;
+    left: 71px;
+  }
+  
+  .dashboard-screen .subscriptions {
+    position: absolute;
+    width: 149px;
+    height: 21px;
+    top: 5px;
+    left: 48px;
+  }
+  
+  .dashboard-screen .img-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .dashboard-screen .settings {
     position: absolute;
     width: 140px;
     height: 27px;
-    top: 330px;
-    left: 1px;
+    top: 405px;
+    left: 71px;
   }
   
-  .explore .text-wrapper-2 {
+  .dashboard-screen .text-wrapper-3 {
     position: absolute;
     top: 0;
     left: 47px;
@@ -89,39 +141,7 @@
     line-height: normal;
   }
   
-  .explore .img {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 3px;
-    left: 0;
-  }
-  
-  .explore .invest {
-    position: absolute;
-    width: 152px;
-    height: 27px;
-    top: 144px;
-    left: 0;
-  }
-  
-  .explore .subscription {
-    position: absolute;
-    width: 200px;
-    height: 27px;
-    top: 72px;
-    left: 1px;
-  }
-  
-  .explore .subscriptions {
-    position: absolute;
-    width: 149px;
-    height: 21px;
-    top: 5px;
-    left: 48px;
-  }
-  
-  .explore .text-wrapper-3 {
+  .dashboard-screen .text-wrapper-4 {
     position: absolute;
     top: 21px;
     left: 69px;
@@ -134,7 +154,7 @@
     white-space: nowrap;
   }
   
-  .explore .socials {
+  .dashboard-screen .socials {
     position: absolute;
     width: 275px;
     height: 359px;
@@ -142,43 +162,35 @@
     left: 5px;
   }
   
-  .explore .home {
+  .dashboard-screen .home {
     position: absolute;
-    width: 225px;
-    height: 51px;
-    top: 59px;
-    left: 43px;
+    width: 113px;
+    height: 27px;
+    top: 71px;
+    left: 69px;
   }
   
-  .explore .overlap-group-2 {
-    position: relative;
-    width: 223px;
-    height: 51px;
-    background-color: #1371fe;
-    border-radius: 30px;
-  }
-  
-  .explore .text-wrapper-4 {
+  .dashboard-screen .text-wrapper-5 {
     position: absolute;
-    top: 12px;
-    left: 73px;
+    top: 0;
+    left: 47px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #ffffff;
+    color: #292d32;
     font-size: 22px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .explore .home-2 {
+  .dashboard-screen .home-2 {
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 13px;
-    left: 26px;
+    top: 1px;
+    left: 0;
   }
   
-  .explore .notiifications {
+  .dashboard-screen .notiifications {
     position: absolute;
     width: 188px;
     height: 28px;
@@ -186,7 +198,7 @@
     left: 69px;
   }
   
-  .explore .notification {
+  .dashboard-screen .notification {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -194,27 +206,7 @@
     left: 0;
   }
   
-  .explore .messages {
-    position: absolute;
-    width: 72px;
-    height: 27px;
-    top: 295px;
-    left: 116px;
-  }
-  
-  .explore .text-wrapper-5 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #484848;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .explore .div-2 {
+  .dashboard-screen .explore {
     position: absolute;
     width: 131px;
     height: 27px;
@@ -222,7 +214,7 @@
     left: 69px;
   }
   
-  .explore .img-2 {
+  .dashboard-screen .explore-2 {
     position: absolute;
     width: 79px;
     height: 20px;
@@ -230,7 +222,7 @@
     left: 48px;
   }
   
-  .explore .hashtag {
+  .dashboard-screen .img-3 {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -238,7 +230,7 @@
     left: 0;
   }
   
-  .explore .text-wrapper-6 {
+  .dashboard-screen .text-wrapper-6 {
     position: absolute;
     top: 17px;
     left: 67px;
@@ -251,15 +243,15 @@
     white-space: nowrap;
   }
   
-  .explore .profile-circle {
+  .dashboard-screen .group {
     position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 297px;
+    width: 119px;
+    height: 27px;
+    top: 295px;
     left: 69px;
   }
   
-  .explore .text-wrapper-7 {
+  .dashboard-screen .text-wrapper-7 {
     position: absolute;
     top: 42px;
     left: 78px;
@@ -271,450 +263,931 @@
     line-height: normal;
   }
   
-  .explore .explore-section {
+  .dashboard-screen .overlap-2 {
     position: absolute;
-    width: 692px;
-    height: 1023px;
-    top: 0;
-    left: 346px;
-    background-color: #efefef;
+    width: 1095px;
+    height: 1025px;
+    top: -1px;
+    left: 347px;
   }
   
-  .explore .frame {
-    width: 659px;
-    height: 363px;
-    top: 292px;
+  .dashboard-screen .overlap-3 {
+    position: absolute;
+    width: 1095px;
+    height: 1025px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .message-section {
+    position: absolute;
+    width: 386px;
+    height: 579px;
+    top: 1px;
+    left: 709px;
+    background-color: #f8f8f8;
+  }
+  
+  .dashboard-screen .text-wrapper-8 {
+    position: absolute;
+    top: 38px;
     left: 28px;
-    background-color: #f2f2f233;
-    position: absolute;
-    border-radius: 30px;
-  }
-  
-  .explore .overlap-group-3 {
-    position: relative;
-    width: 664px;
-    height: 332px;
-    top: 10px;
-  }
-  
-  .explore .trends {
-    position: absolute;
-    width: 664px;
-    height: 111px;
-    top: 0;
-    left: 0;
-  }
-  
-  .explore .trends-2 {
-    position: absolute;
-    width: 664px;
-    height: 111px;
-    top: 103px;
-    left: 0;
-  }
-  
-  .explore .trends-3 {
-    position: absolute;
-    width: 664px;
-    height: 111px;
-    top: 206px;
-    left: 0;
-  }
-  
-  .explore .text-wrapper-8 {
-    position: absolute;
-    top: 315px;
-    left: 37px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #1371fe;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .explore .mask-group {
-    position: absolute;
-    width: 659px;
-    height: 149px;
-    top: 126px;
-    left: 28px;
-  }
-  
-  .explore .video-section {
-    position: absolute;
-    width: 659px;
-    height: 338px;
-    top: 671px;
-    left: 28px;
-    background-color: #fbfbfb;
-    border-radius: 30px;
-    overflow: hidden;
-  }
-  
-  .explore .video {
-    position: absolute;
-    width: 179px;
-    height: 150px;
-    top: 58px;
-    left: 35px;
-  }
-  
-  .explore .overlap-group-4 {
-    position: relative;
-    width: 200px;
-    height: 234px;
-    background-image: url(./img/mask-group-3.png);
-    background-size: 100% 100%;
-  }
-  
-  .explore .rectangle {
-    position: absolute;
-    width: 200px;
-    height: 234px;
-    top: 0;
-    left: 0;
-    border-radius: 15px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(18, 19, 19) 96.36%);
-  }
-  
-  .explore .polygon {
-    position: absolute;
-    width: 51px;
-    height: 56px;
-    top: 93px;
-    left: 80px;
-  }
-  
-  .explore .overlap-wrapper {
-    position: absolute;
-    width: 179px;
-    height: 150px;
-    top: 58px;
-    left: 245px;
-  }
-  
-  .explore .overlap-2 {
-    position: relative;
-    width: 200px;
-    height: 234px;
-    background-image: url(./img/mask-group-2.png);
-    background-size: 100% 100%;
-  }
-  
-  .explore .rectangle-2 {
-    position: absolute;
-    width: 200px;
-    height: 234px;
-    top: 0;
-    left: 0;
-    border-radius: 15px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(18.23, 18.54, 18.97) 96.36%);
-  }
-  
-  .explore .overlap-group-wrapper {
-    position: absolute;
-    width: 179px;
-    height: 150px;
-    top: 58px;
-    left: 455px;
-  }
-  
-  .explore .overlap-3 {
-    position: relative;
-    width: 200px;
-    height: 234px;
-    background-image: url(./img/mask-group-4.png);
-    background-size: 100% 100%;
-  }
-  
-  .explore .video-2 {
-    position: absolute;
-    width: 179px;
-    height: 150px;
-    top: 1710px;
-    left: -1169px;
-  }
-  
-  .explore .text-wrapper-9 {
-    position: absolute;
-    top: 14px;
-    left: 27px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #000000;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .explore .rectangle-3 {
+  .dashboard-screen .message {
     position: absolute;
-    width: 200px;
-    height: 234px;
-    top: 58px;
-    left: 664px;
-    border-radius: 15px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(18, 19, 19) 96.36%);
+    width: 384px;
+    height: 99px;
+    top: 183px;
+    left: 0;
   }
   
-  .explore .overlap-4 {
+  .dashboard-screen .message-2 {
     position: absolute;
-    width: 124px;
+    width: 384px;
+    height: 99px;
+    top: 282px;
+    left: 0;
+  }
+  
+  .dashboard-screen .message-3 {
+    position: absolute;
+    width: 384px;
+    height: 99px;
+    top: 381px;
+    left: 0;
+  }
+  
+  .dashboard-screen .message-4 {
+    position: absolute;
+    width: 384px;
+    height: 99px;
+    top: 480px;
+    left: 0;
+  }
+  
+  .dashboard-screen .overlap-group-wrapper {
+    position: absolute;
+    width: 22px;
     height: 20px;
-    top: 298px;
-    left: 156px;
+    top: 46px;
+    left: 178px;
   }
   
-  .explore .text-wrapper-10 {
-    top: 0;
-    left: 0;
+  .dashboard-screen .div-wrapper {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #1371fe;
+    border-radius: 10px;
+  }
+  
+  .dashboard-screen .text-wrapper-9 {
     position: absolute;
-    width: 101px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #807d7d;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .explore .text-wrapper-11 {
     top: 3px;
-    left: 23px;
-    position: absolute;
-    width: 101px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #807d7d;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .explore .text-wrapper-12 {
-    top: 298px;
-    left: 576px;
-    position: absolute;
-    width: 101px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #807d7d;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .explore .ellipse-wrapper {
-    width: 655px;
-    height: 58px;
-    top: 49px;
-    left: 32px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    position: absolute;
-    border-radius: 30px;
-  }
-  
-  .explore .ellipse {
-    position: relative;
-    width: 38px;
-    height: 38px;
-    top: 10px;
-    left: 22px;
-    background-color: #d9d9d9;
-    border-radius: 19px;
-  }
-  
-  .explore .div-wrapper {
-    width: 352px;
-    height: 416px;
-    top: 53px;
-    left: 1062px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    position: absolute;
-    border-radius: 30px;
-  }
-  
-  .explore .overlap-5 {
-    position: relative;
-    width: 353px;
-    height: 416px;
-    left: -1px;
-  }
-  
-  .explore .markus-spiske {
-    position: absolute;
-    width: 352px;
-    height: 368px;
-    top: 0;
-    left: 1px;
-    object-fit: cover;
-  }
-  
-  .explore .rectangle-4 {
-    position: absolute;
-    width: 352px;
-    height: 246px;
-    top: 0;
-    left: 0;
-    border-radius: 30px;
-    background: linear-gradient(180deg, rgba(48.72, 44.45, 44.45, 0.79) 0%, rgba(218.75, 218.75, 218.75, 0) 100%);
-  }
-  
-  .explore .rectangle-5 {
-    position: absolute;
-    width: 353px;
-    height: 288px;
-    top: 128px;
-    left: 0;
-    background-color: #ffffff;
-    border-radius: 30px;
-  }
-  
-  .explore .trends-4 {
-    position: absolute;
-    width: 259px;
-    height: 115px;
-    top: 130px;
-    left: 1px;
-  }
-  
-  .explore .trends-5 {
-    position: absolute;
-    width: 259px;
-    height: 115px;
-    top: 217px;
-    left: 1px;
-  }
-  
-  .explore .trends-6 {
-    position: absolute;
-    width: 259px;
-    height: 115px;
-    top: 301px;
-    left: 1px;
-  }
-  
-  .explore .text-wrapper-13 {
-    position: absolute;
-    width: 290px;
-    top: 21px;
-    left: 31px;
-    text-shadow: 0px 4px 4px #00000040;
+    left: 7px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .explore .options-icon {
+  .dashboard-screen .overlap-wrapper {
     position: absolute;
-    width: 7px;
-    height: 31px;
-    top: 170px;
-    left: 315px;
+    width: 341px;
+    height: 37px;
+    top: 128px;
+    left: 21px;
   }
   
-  .explore .ellipse-2 {
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    top: 0;
-    left: 0;
-    background-color: #766060;
-    border-radius: 1.5px;
-  }
-  
-  .explore .ellipse-3 {
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    top: 7px;
-    left: 0;
-    background-color: #766060;
-    border-radius: 1.5px;
-  }
-  
-  .explore .ellipse-4 {
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    top: 14px;
-    left: 0;
-  }
-  
-  .explore .options-icon-2 {
-    top: 236px;
-    position: absolute;
-    width: 7px;
-    height: 31px;
-    left: 315px;
-  }
-  
-  .explore .options-icon-3 {
-    top: 305px;
-    position: absolute;
-    width: 7px;
-    height: 31px;
-    left: 315px;
-  }
-  
-  .explore .frame-2 {
-    width: 352px;
-    height: 496px;
-    top: 496px;
-    left: 1062px;
-    background-color: #ffffff;
-    overflow: hidden;
-    position: absolute;
+  .dashboard-screen .overlap-4 {
+    position: relative;
+    width: 339px;
+    height: 37px;
+    background-color: #eae3e3;
     border-radius: 30px;
   }
   
-  .explore .trends-7 {
+  .dashboard-screen .text-wrapper-10 {
     position: absolute;
-    width: 335px;
-    height: 94px;
-    top: 60px;
-    left: 0;
-  }
-  
-  .explore .trends-8 {
-    position: absolute;
-    width: 335px;
-    height: 94px;
-    top: 170px;
-    left: 0;
-  }
-  
-  .explore .trends-9 {
-    position: absolute;
-    width: 335px;
-    height: 94px;
-    top: 280px;
-    left: 0;
-  }
-  
-  .explore .trends-10 {
-    position: absolute;
-    width: 335px;
-    height: 94px;
-    top: 374px;
-    left: 0;
-  }
-  
-  .explore .text-wrapper-14 {
-    position: absolute;
-    width: 257px;
-    top: 26px;
-    left: 26px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
+    top: 9px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #767272;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
   }
+  
+  .dashboard-screen .line {
+    width: 386px;
+    top: 185px;
+    left: 707px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .dashboard-screen .line-2 {
+    width: 1091px;
+    top: 105px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .dashboard-screen .dashboard-page {
+    position: absolute;
+    width: 708px;
+    height: 1025px;
+    top: 0;
+    left: 1px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .text-wrapper-11 {
+    top: 38px;
+    left: 26px;
+    color: #000000;
+    font-size: 28px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .line-3 {
+    position: absolute;
+    width: 1px;
+    height: 1024px;
+    top: 1px;
+    left: 708px;
+  }
+  
+  .dashboard-screen .frame {
+    width: 370px;
+    height: 212px;
+    top: 103px;
+    left: 34px;
+    background-color: #1371fe;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px 2px #00000008;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .text-wrapper-12 {
+    position: absolute;
+    top: 108px;
+    left: 40px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .dashboard-screen .text-wrapper-13 {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .group-2 {
+    position: absolute;
+    width: 67px;
+    height: 65px;
+    top: 31px;
+    left: 40px;
+  }
+  
+  .dashboard-screen .overlap-group-2 {
+    position: relative;
+    width: 69px;
+    height: 65px;
+  }
+  
+  .dashboard-screen .group-3 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle {
+    position: absolute;
+    width: 48px;
+    height: 40px;
+    top: 0;
+    left: 9px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .dashboard-screen .text-wrapper-14 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .icon-add-circle {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 10px;
+    left: 23px;
+  }
+  
+  .dashboard-screen .group-4 {
+    position: absolute;
+    width: 48px;
+    height: 65px;
+    top: 31px;
+    left: 277px;
+  }
+  
+  .dashboard-screen .overlap-5 {
+    position: relative;
+    width: 50px;
+    height: 65px;
+  }
+  
+  .dashboard-screen .group-5 {
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-2 {
+    left: 0;
+    position: absolute;
+    width: 48px;
+    height: 40px;
+    top: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .dashboard-screen .text-wrapper-15 {
+    left: 8px;
+    position: absolute;
+    top: 50px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .icon-money-send {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 9px;
+    left: 13px;
+  }
+  
+  .dashboard-screen .group-6 {
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    top: 31px;
+    left: 167px;
+  }
+  
+  .dashboard-screen .overlap-6 {
+    position: relative;
+    width: 52px;
+    height: 65px;
+  }
+  
+  .dashboard-screen .group-7 {
+    position: absolute;
+    width: 52px;
+    height: 65px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-3 {
+    left: 1px;
+    position: absolute;
+    width: 48px;
+    height: 40px;
+    top: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .dashboard-screen .tabler-transfer {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 7px;
+    left: 11px;
+  }
+  
+  .dashboard-screen .overlap-7 {
+    position: absolute;
+    width: 250px;
+    height: 212px;
+    top: 103px;
+    left: 424px;
+    border-radius: 30px;
+  }
+  
+  .dashboard-screen .frame-2 {
+    width: 250px;
+    height: 212px;
+    top: 0;
+    left: 0;
+    background-color: #1371fe;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px 2px #00000008;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .rectangle-4 {
+    position: absolute;
+    width: 19px;
+    height: 116px;
+    top: 48px;
+    left: 169px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .dashboard-screen .text-wrapper-16 {
+    position: absolute;
+    top: 185px;
+    left: 81px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .group-8 {
+    position: absolute;
+    width: 19px;
+    height: 131px;
+    top: 33px;
+    left: 57px;
+  }
+  
+  .dashboard-screen .rectangle-5 {
+    position: absolute;
+    width: 131px;
+    height: 19px;
+    top: 56px;
+    left: -56px;
+    background-color: #e9e9e9;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .rectangle-6 {
+    position: absolute;
+    width: 81px;
+    height: 19px;
+    top: 81px;
+    left: -31px;
+    background-color: #05f439;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .group-9 {
+    position: absolute;
+    width: 103px;
+    height: 128px;
+    top: 36px;
+    left: 85px;
+  }
+  
+  .dashboard-screen .overlap-8 {
+    position: absolute;
+    width: 47px;
+    height: 128px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-7 {
+    position: absolute;
+    width: 19px;
+    height: 106px;
+    top: 22px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .dashboard-screen .rectangle-8 {
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    top: 96px;
+    left: -13px;
+    background-color: #05f439;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .rectangle-wrapper {
+    position: absolute;
+    width: 19px;
+    height: 128px;
+    top: 0;
+    left: 28px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .dashboard-screen .rectangle-9 {
+    position: relative;
+    width: 116px;
+    height: 19px;
+    top: 60px;
+    left: -48px;
+    background-color: #05f439;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .overlap-9 {
+    position: absolute;
+    width: 47px;
+    height: 95px;
+    top: 33px;
+    left: 56px;
+  }
+  
+  .dashboard-screen .rectangle-10 {
+    position: absolute;
+    width: 64px;
+    height: 19px;
+    top: 54px;
+    left: 6px;
+    background-color: #05f439;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .group-10 {
+    position: absolute;
+    width: 19px;
+    height: 95px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .dashboard-screen .rectangle-11 {
+    position: relative;
+    width: 53px;
+    height: 19px;
+    top: 59px;
+    left: -17px;
+    background-color: #05f439;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .dashboard-screen .overlap-10 {
+    position: absolute;
+    width: 640px;
+    height: 518px;
+    top: 365px;
+    left: 34px;
+    border-radius: 30px;
+  }
+  
+  .dashboard-screen .recent-transactions {
+    position: absolute;
+    width: 640px;
+    height: 518px;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .line-wrapper {
+    position: relative;
+    height: 68px;
+    background-image: url(./img/image.png);
+    background-size: 100% 100%;
+  }
+  
+  .dashboard-screen .line-4 {
+    width: 577px;
+    top: 67px;
+    left: 31px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .dashboard-screen .img-wrapper {
+    position: relative;
+    height: 68px;
+    background-image: url(./img/recent-traction-last-7-days.png);
+    background-size: 100% 100%;
+  }
+  
+  .dashboard-screen .frame-3 {
+    width: 637px;
+    height: 390px;
+    top: 106px;
+    left: 0;
+    border-radius: 25px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .overlap-11 {
+    position: relative;
+    width: 535px;
+    height: 458px;
+    left: 55px;
+  }
+  
+  .dashboard-screen .group-11 {
+    position: absolute;
+    width: 530px;
+    height: 68px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-12 {
+    top: 0;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0;
+    border-radius: 12px;
+  }
+  
+  .dashboard-screen .text-wrapper-17 {
+    position: absolute;
+    top: 10px;
+    left: 78px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .text-wrapper-18 {
+    position: absolute;
+    top: 23px;
+    left: 431px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .element-september {
+    position: absolute;
+    top: 40px;
+    left: 78px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6e6e6e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .dashboard-screen .group-12 {
+    position: absolute;
+    width: 514px;
+    height: 68px;
+    top: 78px;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-13 {
+    top: 0;
+    background-color: #04db33;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0;
+    border-radius: 12px;
+  }
+  
+  .dashboard-screen .text-wrapper-19 {
+    top: 23px;
+    color: #6e6e6e;
+    position: absolute;
+    left: 431px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .group-13 {
+    position: absolute;
+    width: 526px;
+    height: 68px;
+    top: 156px;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-14 {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .dashboard-screen .group-14 {
+    position: absolute;
+    width: 527px;
+    height: 68px;
+    top: 234px;
+    left: 0;
+  }
+  
+  .dashboard-screen .group-15 {
+    position: absolute;
+    width: 535px;
+    height: 68px;
+    top: 312px;
+    left: 0;
+  }
+  
+  .dashboard-screen .overlap-group-3 {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    border-radius: 12px;
+  }
+  
+  .dashboard-screen .text-wrapper-20 {
+    position: absolute;
+    top: 28px;
+    left: 3px;
+    font-family: "Racing Sans One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .group-16 {
+    position: absolute;
+    width: 530px;
+    height: 458px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .paypal-icon {
+    position: absolute;
+    width: 68px;
+    height: 458px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .rectangle-15 {
+    top: 390px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0;
+    border-radius: 12px;
+  }
+  
+  .dashboard-screen .paypal-logo {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .text-wrapper-21 {
+    position: absolute;
+    top: 400px;
+    left: 78px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .text-wrapper-22 {
+    top: 413px;
+    color: #000000;
+    position: absolute;
+    left: 431px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .element-september-2 {
+    position: absolute;
+    top: 430px;
+    left: 78px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6e6e6e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .dashboard-screen .spotify {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 88px;
+    left: 9px;
+  }
+  
+  .dashboard-screen .h-m-logo {
+    position: absolute;
+    width: 57px;
+    height: 37px;
+    top: 172px;
+    left: 5px;
+    object-fit: cover;
+  }
+  
+  .dashboard-screen .text-wrapper-23 {
+    position: absolute;
+    top: 237px;
+    left: 19px;
+    font-family: "Racing Sans One-Regular", Helvetica;
+    font-weight: 400;
+    color: #304797;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .expenses-tracking {
+    position: absolute;
+    width: 339px;
+    height: 364px;
+    top: 621px;
+    left: 732px;
+    background-color: #1371fe;
+    border-radius: 49px;
+    overflow: hidden;
+  }
+  
+  .dashboard-screen .text-wrapper-24 {
+    position: absolute;
+    top: 15px;
+    left: 33px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .total-exp-wrapper {
+    position: absolute;
+    width: 235px;
+    height: 72px;
+    top: 251px;
+    left: 52px;
+    background-color: #ffffff;
+    border-radius: 67px;
+  }
+  
+  .dashboard-screen .total-exp {
+    position: absolute;
+    top: 24px;
+    left: 21px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 400;
+    color: #1371fe;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .span {
+    font-weight: 300;
+  }
+  
+  .dashboard-screen .text-wrapper-25 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .dashboard-screen .progressbar {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    top: 72px;
+    left: 97px;
+    background-image: url(./img/total.svg);
+    background-size: 100% 100%;
+  }
+  
+  .dashboard-screen .overlap-group-4 {
+    position: relative;
+    width: 140px;
+    height: 87px;
+  }
+  
+  .dashboard-screen .value {
+    position: absolute;
+    width: 140px;
+    height: 75px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dashboard-screen .text-wrapper-26 {
+    position: absolute;
+    top: 49px;
+    left: 44px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dashboard-screen .text-wrapper-27 {
+    position: absolute;
+    top: 71px;
+    left: 32px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
