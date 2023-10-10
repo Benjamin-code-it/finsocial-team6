@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/style.css" />
-    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="./sign-in.css" />
+    <title>Sign-in Page</title>
   </head>
   <body>
     <div class="grid">
-      <main class="signup__page" >
+      <main>
         <!-- The greetings -->
 
         <section class="greetings">
-          <p>Create Account</p>
-          <p>to get started now!</p>
+          <p>Welcome,</p>
+          <p>Glad to see you!</p>
         </section>
 
         <!-- The input region  -->
 
-        <section class="input signup">
+        <section class="input">
           <form action="" class="form">
             <section class="inputField">
               <input
@@ -39,39 +39,31 @@
                 autocomplete="off"
                 required
               />
-              <input
-                type="password"
-                name="password"
-                id="password"
-                class="inputField__two"
-                placeholder="Password"
-                autocomplete="off"
-                required
-              />
+              <small><a>Forgot Password?</a></small>
             </section>
 
             <!-- The login button -->
 
             <div class="button">
-              <button type="submit" class="signup__btn">
-                <p>Signup</p>
+              <button type="submit">
+                <p>Login</p>
               </button>
             </div>
           </form>
         </section>
         <div class="orsignin">
-          <span class="signup__line"></span>
+          <span class="orsignin__line"></span>
           <p class="signIn">or sign in with</p>
-          <span class="signup__line"></span>
+          <span class="orsignin__line"></span>
         </div>
 
         <div class="socials">
-          <a href=""><button class="signup google">Google</button
-          ><a href=""><button class=" signup facebook">Facebook</button></a>
+          <button class="google"><a href="">Google</a></button
+          ><button class="facebook"><a href="">Facebook</a></button>
         </div>
         <div class="existingAcct">
-          <small>Already have an exisiting account?</small>
-          <a href="./sign-in.html"><button class="signup__btn">Sign in</button></a>
+          <small>Don't have existing account?</small>
+          <a href="./sign-up.html"><button>Sign Up</button></a>
         </div>
       </main>
     </div>
