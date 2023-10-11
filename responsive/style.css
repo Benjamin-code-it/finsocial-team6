@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    outline: none;
 }
 
 .main-container {
@@ -18,7 +19,13 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: 18em auto 14em;
+    grid-template-columns: 18em auto 18em;
+}
+.flex {
+  display: flex;
+}
+.gap-1 {
+  gap: 1em;
 }
 a {
     color: inherit;
@@ -81,20 +88,103 @@ main {
 .mobile {
     display: none;
 }
-
-.main-web {
-    padding: 1.5em 2em;
+main {
+  overflow-y: scroll;
 }
-@media only screen and (max-width: 680px) {
+.main-web {
+  position: relative;
+}
+.main-web > div {
+  padding-top: 10em;
+  display: grid;
+  width: 100%;
+  
+}
+.main-web > div > header {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  right: 18em;
+  left: 18em;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.main-web > div > header > h2 {
+  padding: 1em;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.post {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px auto;
+  gap: 1em;
+  padding: 1.4em 1.4em;
+  height: fit-content;
+}
+.post > .info > h3 {
+  margin-bottom: 0.2em;
+}
+.post > .info > p {
+  font-size: 0.98em;
+}
+.circle {
+  border-radius: 50%;
+  background-color: grey;
+  height: 40px;
+  width: 40px;
+}
+.search-bar {
+  width: inherit;
+  display: grid;
+  grid-template-columns: 40px auto;
+  gap: 1em;
+  padding: 1em 1.4em;
+  
+}
+.search-bar > .circle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.search-bar > form > input {
+  width: 75%;
+  height: 3.2em;
+  padding: 0 1.6em;
+  border-radius: 30px;
+  background-color: rgb(240, 240, 240);
+  font-weight: 500;
+  font-size: 1.05em;
+}
+@media only screen and (max-width: 1100px) {
+  
+  .right-sidebar {
+    display: none;
+  }
+  .main-container {
+      grid-template-columns: 16.4em auto;
+  }
+  .sidebar {
+    padding: 1.5em 1em 1em 1em;
+    /*overflow-y: scroll;*/
+}
+.main-web > div > header {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  right: 0;
+  left: 16.4em;
+}
+.search-bar > form > input {
+  width: 90%;
+}
+}
+@media only screen and (max-width: 780px) {
     .web {
         display: none;
     }
     .mobile {
         display: block;
     }
-  .main-container {
-      grid-template-columns: 100%;
-  }
+  
 
   aside {
     display: none;
@@ -103,6 +193,7 @@ main {
     position: relative;
     width: 100%;
     height: 100svh;
+    overflow-y: scroll;
   }
 
   header {
@@ -113,6 +204,8 @@ main {
     display: flex;
     padding: 1.6em 2.2em;
     border-bottom: 1px solid rgb(219, 219, 219);
+    background: white;
+    z-index: 20;
   }
 
   .profile {
@@ -123,10 +216,11 @@ main {
   }
   .main-mobile{
     position: relative;
-    top: 10svh;
+    top: 0;
     right: 0;
     left: 0;
-    height: 88svh;
+    height: 100svh;
+    padding: 6em 1.2em;
     bottom: auto;
   }
   nav {
@@ -140,9 +234,16 @@ main {
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-top: 1px solid rgb(219, 219, 219);
+    background-color: white;
   }
   nav > div {
     margin: auto;
     cursor: pointer;
+  }
+  .post {
+    padding: 1.4em 0.2em;
+  }
+  .search-bar > form > input {
+    width: 90%;
   }
 }
