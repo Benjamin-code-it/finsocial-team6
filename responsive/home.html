@@ -2,96 +2,233 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <title>Finsocial</title>
-    
-    <style>
-        /* Custom CSS */
-        .carousel-caption {
-            font-size: 48px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        .carousel-item img {
-            object-fit: cover;
-            width: 100vw;
-            height: 100vh;
-        }
-
-        .button-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .custom-button {
-            background-color: #1472FF;
-            color: #fff;
-            font-size: 24px;
-            border: none;
-            padding: 15px 30px;
-            border-radius: 5px;
-            text-decoration: none;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        .custom-button:hover {
-            background-color: #1472FF;
-            color: #fff;
-            box-shadow: 2px 2px 4px rgba(250, 250, 250, 0.5);
-        }
-
-        .small-link {
-            font-size: 14px;
-            color: #fff;
-        }
-        
-        /* Media query for small screens */
-        @media (max-width: 767px) {
-            .carousel-caption {
-                font-size: 24px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 </head>
-
 <body>
-    <!-- Carousel 100% Fullscreen -->
-    <div id="carouselExampleIndicators" class="carousel slide d-flex align-items-center justify-content-center"
-        data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="./finsocial/img/img1.jpg" alt="First slide">
-                <div class="carousel-caption container">
-                    <div class="row">
-                        <p>Powerfully Simple <span style="color: #05F539;">Business</span> Banking</p>
+    <div class="main-container web">
+        <aside class="sidebar">
+            <div class="logo"><h3>Finsocial</h3></div>            
+            
+            <div class="sidebar-wrapper">
+                <div><small><b>Socials</b></small></div>
+                
+                <div id="active-sidebar">
+                    <a href="./home.html">
+                        <img class="icon" src="./images/icons/home-1-1.svg"/>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./explore.html">
+                        <img class="icon" src="./images/icons/hashtag-1.svg"/>
+                        <p>Explore</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./notifications.html">
+                        <img class="icon" src="./images/icons/notification.svg"/>
+                        <p>Notifications</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./profile.html">
+                        <img class="icon" src="./images/icons/profile-circle-1.svg"/>
+                        <p>Profile</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="sidebar-wrapper">
+                <div><small><b>Finance</b></small></div>
+                <div>
+                    <a href="./profile.html">
+                        <img class="icon" src="./images/icons/chart-3-1.svg"/>
+                        <p>Dashboard</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./profile.html">
+                        <img class="icon" src="./images/icons/card-1.svg"/>
+                        <p>Subscriptions</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./profile.html">
+                        <img class="icon" src="./images/icons/chart-2-2.svg"/>
+                        <p>Analytics</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="./profile.html">
+                        <img class="icon" src="./images/icons/setting-1.svg"/>
+                        <p>Settings</p>
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <main class="main-web">
+            <div>
+                <header>
+                    <h2>Home</h2>
+                    <div class="search-bar">
+                        <div class="circle"></div>
+                        <form>
+                            <input placeholder="Share your story"/>
+                        </form>
                     </div>
-                    <div class="row">
-                        <a href="./finsocial/forms/sign-up.html" class="btn btn-primary">Open an Account</a>
+                </header>
+                
+                <div class="post-grp">
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
                     </div>
-                    <div class="row">
-                        <small><a href="./finsocial/forms/sign-in.html" class="small-link">Sign in to an Existing account</a></small>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Additional carousel items go here -->
-        </div>
+        </main>
+        <aside class="right-sidbar"></aside>
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
-    <!-- JavaScript for Automatic Sliding -->
-    <script>
-        // Set the carousel to slide every 5 seconds
-        $('.carousel').carousel({
-            interval: 5000
-        });
-    </script>
+
+    <div class="mobile-main-container mobile" >
+        <header>
+            <img class="icon profile" src="./images/icons/profile-circle-1.svg"/>
+            <h3>Finsocial</h3>
+            <img class="icon notification" src="./images/icons/notification.svg"/>
+        </header>
+        <main class="main-mobile">
+            <div>
+                <div class="post-grp">
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="circle"></div>
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <p>Check out this awesome app made by team 6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav>
+            <div class="nav-icon">
+                <img class="icon notification" src="./images/icons/home-1-1.svg"/>
+            </div>
+            <div class="nav-icon">
+                <img class="icon notification" src="./images/icons/hashtag-1.svg"/>
+            </div>
+            <div class="nav-icon">
+                <img class="icon notification" src="./images/icons/chart-3-1.svg"/>
+            </div>
+            <div class="nav-icon">
+                <img class="icon notification" src="./images/icons/card-1.svg"/>
+            </div>
+            <div class="nav-icon">
+                <img class="icon notification" src="./images/icons/chart-2-2.svg"/>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>
