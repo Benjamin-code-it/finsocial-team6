@@ -76,9 +76,9 @@
   }
 
   .landing-page .fin-social {
-    position: fixed;
-    width: 162px;
-    height: 100px;
+    position: static;
+    width: 100px;
+    height: 50px;
     top: 26px;
     left: 24px;
     object-fit: cover;
