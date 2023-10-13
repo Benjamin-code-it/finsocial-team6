@@ -262,6 +262,15 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .dashboard-screen .fin-social {
+    position: static;
+    width: 100px;
+    height: 50px;
+    top: 26px;
+    left: 24px;
+    object-fit: cover;
+  }
   
   .dashboard-screen .overlap-2 {
     position: absolute;
@@ -1191,3 +1200,4 @@
     line-height: normal;
   }
   
+ 
