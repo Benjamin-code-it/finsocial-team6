@@ -518,3 +518,12 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .home-page .fin-social {
+    position: fixed;
+    width: 162px;
+    height: 100px;
+    top: 26px;
+    left: 24px;
+    object-fit: cover;
+  }

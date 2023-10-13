@@ -16,6 +16,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .grid {
+  background-image: url(./responsive/landing\ bckgrd.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1400px;
+  height: 600px;
   display: grid;
   justify-content: center;
   align-items: center;

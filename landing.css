@@ -1,5 +1,5 @@
 .landing-page {
-    background-color: #ffffff;
+    background-color:  #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,7 +7,9 @@
   }
   
   .landing-page .div {
-    background-color: #ffffff;
+    background-color: url(./responsive/landing\ bckgrd.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
     width: 1440px;
     height: 1024px;
     position: relative;
@@ -30,7 +32,21 @@
   .landing-page .text-wrapper {
     color: #1371fe;
   }
-  
+
+  .landing-page .business-banking {
+    position: absolute;
+    width: 1109px;
+    top: 630px;
+    left: 49px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
   .landing-page .span {
     color: #05f439;
   }
@@ -58,6 +74,15 @@
     top: 97px;
     left: 49px;
   }
+
+  .landing-page .fin-social {
+    position: fixed;
+    width: 162px;
+    height: 100px;
+    top: 26px;
+    left: 24px;
+    object-fit: cover;
+  }
   
   .landing-page .overlap-group {
     position: absolute;
@@ -74,9 +99,9 @@
     top: 15px;
     left: 67px;
     font-family: "Inter", Helvetica;
-    font-weight: 300;
-    color: #ffffff;
-    font-size: 14px;
+    font-weight: 400;
+    color: #110e0e;
+    font-size: 18px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -117,9 +142,9 @@
     top: 900px;
     left: 634px;
     font-family: "Inter", Helvetica;
-    font-weight: 300;
+    font-weight: 400;
     color: #000000;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
