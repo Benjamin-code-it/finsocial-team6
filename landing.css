@@ -1,127 +1,153 @@
+/** @format */
+
 .landing-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .landing-page .div {
-    background-color: #ffffff;
-    width: 1440px;
-    height: 1024px;
-    position: relative;
-  }
-  
-  .landing-page .powerfully-simple {
-    position: absolute;
-    width: 1142px;
-    top: 467px;
-    left: 49px;
-    font-family: "Inter", Helvetica;
-    font-weight: 700;
-    color: transparent;
-    font-size: 128px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .landing-page .text-wrapper {
-    color: #1371fe;
-  }
-  
-  .landing-page .span {
-    color: #05f439;
-  }
-  
-  .landing-page .rectangle {
-    position: absolute;
-    width: 443px;
-    height: 268px;
-    top: 97px;
-    left: 955px;
-  }
-  
-  .landing-page .img {
-    position: absolute;
-    width: 443px;
-    height: 268px;
-    top: 97px;
-    left: 502px;
-  }
-  
-  .landing-page .rectangle-2 {
-    position: absolute;
-    width: 443px;
-    height: 268px;
-    top: 97px;
-    left: 49px;
-  }
-  
-  .landing-page .overlap-group {
-    position: absolute;
-    width: 247px;
-    height: 49px;
-    top: 837px;
-    left: 597px;
-    background-color: #1371fe;
-    border-radius: 14px;
-  }
-  
-  .landing-page .text-wrapper-2 {
-    position: absolute;
-    top: 15px;
-    left: 67px;
-    font-family: "Inter", Helvetica;
-    font-weight: 300;
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .landing-page .rectangle-3 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 424px;
-    left: 677px;
-    background-color: #d9d9d9;
-    border-radius: 5px;
-  }
-  
-  .landing-page .rectangle-4 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 424px;
-    left: 715px;
-    background-color: #d9d9d9;
-    border-radius: 5px;
-  }
-  
-  .landing-page .rectangle-5 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 424px;
-    left: 753px;
-    background-color: #1371fe;
-    border-radius: 5px;
-  }
-  
-  .landing-page .p {
-    position: absolute;
-    top: 900px;
-    left: 634px;
-    font-family: "Inter", Helvetica;
-    font-weight: 300;
-    color: #000000;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .div {
+  background-color: url(./responsive/landing\ bckgrd.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.landing-page .powerfully-simple {
+  position: absolute;
+  width: 1142px;
+  top: 467px;
+  left: 49px;
+  font-family: 'Inter', Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper {
+  color: #1371fe;
+}
+
+.landing-page .business-banking {
+  position: absolute;
+  width: 1109px;
+  top: 630px;
+  left: 49px;
+  font-family: 'Inter', Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .span {
+  color: #05f439;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 443px;
+  height: 268px;
+  top: 97px;
+  left: 955px;
+}
+
+.landing-page .img {
+  position: absolute;
+  width: 443px;
+  height: 268px;
+  top: 97px;
+  left: 502px;
+}
+
+.landing-page .rectangle-2 {
+  position: absolute;
+  width: 443px;
+  height: 268px;
+  top: 97px;
+  left: 49px;
+}
+
+.landing-page .fin-social {
+  position: static;
+  width: 100px;
+  height: 50px;
+  top: 26px;
+  left: 24px;
+  object-fit: cover;
+}
+
+.landing-page .overlap-group {
+  position: absolute;
+  width: 247px;
+  height: 49px;
+  top: 837px;
+  left: 597px;
+  background-color: #1371fe;
+  border-radius: 14px;
+}
+
+.landing-page .text-wrapper-2 a {
+  position: absolute;
+  top: 15px;
+  left: 67px;
+  font-family: 'Inter', Helvetica;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .rectangle-3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 424px;
+  left: 677px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+}
+
+.landing-page .rectangle-4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 424px;
+  left: 715px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+}
+
+.landing-page .rectangle-5 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 424px;
+  left: 753px;
+  background-color: #1371fe;
+  border-radius: 5px;
+}
+
+.landing-page .p {
+  position: absolute;
+  top: 900px;
+  left: 634px;
+  font-family: 'Inter', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

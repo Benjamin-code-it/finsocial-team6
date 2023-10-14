@@ -1,0 +1,59 @@
+/** @format */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  text-align: center;
+  background-image: url(./responsive/landing\ bckgrd.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1400px;
+  height: 600px;
+}
+
+h2,
+div {color: #fff;
+}
+
+h1 {
+  font-family: 'Inter', Helvetica;
+  font-weight: 700;
+  color: #fcfbfb;
+  font-size: 41px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #3a3838;
+  font-family: 'Inter', Helvetica;
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background-color: #1377ff;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  font-family: 'Inter', Helvetica;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+}

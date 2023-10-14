@@ -1276,3 +1276,11 @@
     line-height: normal;
   }
   
+  .analytics .fin-social {
+    position: static;
+    width: 100px;
+    height: 50px;
+    top: 26px;
+    left: 24px;
+    object-fit: cover;
+  }
